@@ -1,0 +1,114 @@
+/* font-family: 'Press Start 2P', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'VT323', monospace; */
+
+body{
+    background-image: url("https://i.ytimg.com/vi/Dh9W9JAUWBA/maxresdefault.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+#name, #tagline{
+    text-align: right;
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em green;
+}
+nav{
+    font-family: 'Press Start 2P', cursive;
+    overflow: hidden;
+    background-color: rgba(47, 26, 161, 0.644);
+    float: right; /*puts NAV elements on the right*/
+    border: 2px solid white;
+}
+#guide{
+    float: left; /*guide text from left to right*/
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    border-left: 3px solid whitesmoke;
+}
+#guide:hover{
+    background-color: rgba(139, 0, 0, 0.603);
+    cursor: wait;
+}
+#guide a{
+    color: white !important;
+    text-shadow: 1px 1px 2px white, 2px 2px 1em blue, 0 0 0.4em blue;
+}
+img{
+    display: block;
+    margin-left: 80%;
+    margin-top: 6%;
+    margin-bottom: -15%;
+}
+.sectionTitle{
+    font-size: 35px !important;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 3px 3px 3px whitesmoke;
+}
+#special{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px whitesmoke;
+}
+.sectionTitle2{
+    font-family: 'Press Start 2P', cursive;
+    margin: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+#menu{
+    text-shadow: 3px 3px 3px rgb(209, 181, 20);
+    font-family: 'Press Start 2P', cursive;
+}
+.pizza{
+    float: left;
+    width: 50%;
+}
+.pizzaName{
+    color: #333;
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+.description{
+    color: #333;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 20px;
+}
+.price{
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+    margin: 10px;
+}
+.pizzalast{
+    margin-right: 50%;
+}
+#subVis{
+    background-image: url("https://res.cloudinary.com/lmn/image/upload/c_limit,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyc/s/p/i/spiderman-1ec00.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    font-family: 'Bangers', cursive;
+    font-size: 20px !important;
+    color: whitesmoke;
+    text-shadow: 2px 1px 1px black;
+}
+.hours{
+    display: inline;
+
+}
+.credit{
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
