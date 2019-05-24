@@ -55,8 +55,8 @@ img{
     font-size: 40px;
     text-decoration: underline;
 }
-
-.pizza{
+/* CSS for original */
+/* .pizza{
     color: rgb(211, 101, 11);
     float: left;
     width: 50%;
@@ -101,7 +101,7 @@ img{
     font-family: 'VT323', monospace;
     margin: 10px;
     text-shadow: 3px 3px 3px black;
-}
+} */
 #subVis{
     background-image: url("https://res.cloudinary.com/lmn/image/upload/c_limit,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyc/s/p/i/spiderman-1ec00.jpg");
     background-repeat: no-repeat;
@@ -122,7 +122,6 @@ img{
 }
 
 /* drop box css below */
-
 #pizzapop{
     color: rgb(211, 101, 11);
     text-shadow: 3px 3px 3px black;
@@ -145,14 +144,12 @@ span.dropt span{
     margin: 20px 0 0 0px;
     padding: 3px 3px 3px 3px;
     border-style:solid;
-    border-color:black;
     border-width:1px;
     z-index: 2;
 }
 span.dropt:hover span{
-    left: 2%;
-    bottom: 3%;
-    right: 2;
+    left: 45%;
+    bottom: -15%;
     background: #ffffff;
 } 
 span.dropt span{
@@ -162,5 +159,6 @@ span.dropt span{
     border-style:solid;
     border-color:#333;
     border-width:5px;
+    font-size: 20px;
 }
 span.dropt:hover span {margin: 20px 0 0 100px; background: #333; z-index:6;} 
