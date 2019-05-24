@@ -43,16 +43,10 @@ img{
     margin-top: 6%;
     margin-bottom: -15%;
 }
-.sectionTitle{
+.sectionTitle, #special{
     font-size: 35px !important;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
-    text-shadow: 3px 3px 3px whitesmoke;
-}
-#special{
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    font-size: 30px;
     text-shadow: 3px 3px 3px whitesmoke;
 }
 .sectionTitle2{
@@ -61,24 +55,32 @@ img{
     font-size: 40px;
     text-decoration: underline;
 }
-#menu{
-    text-shadow: 3px 3px 3px rgb(209, 181, 20);
-    font-family: 'Press Start 2P', cursive;
-}
+
 .pizza{
+    color: rgb(211, 101, 11);
     float: left;
     width: 50%;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'Press Start 2P', cursive;
 }
 .pizzaName{
-    color: #333;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+.pizzaNamelast{
     font-family: 'Press Start 2P', cursive;
+    color: rgb(211, 101, 11);
+    text-shadow: 3px 3px 3px black;
     text-align: left;
     font-size: 25px;
     font-weight: bolder;
     margin-bottom: 0%;
 }
 .description{
-    color: #333;
+    color: rgb(211, 101, 11);
+    text-shadow: 3px 3px 3px black;
     text-align: left;
     font-size: 20px;
     font-family: 'Press Start 2P', cursive;
@@ -90,9 +92,15 @@ img{
     font-weight: bold;
     font-family: 'VT323', monospace;
     margin: 10px;
+    text-shadow: 3px 3px 3px black;
 }
-.pizzalast{
-    margin-right: 50%;
+.pricelast{
+    color: rgb(211, 101, 11);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+    margin: 10px;
+    text-shadow: 3px 3px 3px black;
 }
 #subVis{
     background-image: url("https://res.cloudinary.com/lmn/image/upload/c_limit,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyc/s/p/i/spiderman-1ec00.jpg");
@@ -112,3 +120,47 @@ img{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+/* drop box css below */
+
+#pizzapop{
+    color: rgb(211, 101, 11);
+    text-shadow: 3px 3px 3px black;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin: 20px;
+}
+span.dropt{
+    background: transparent;
+}
+span.dropt:hover{
+    text-decoration: none;
+    background: #333;
+    z-index: 6;
+}
+span.dropt span{
+    position: absolute;
+    left: -9999px;
+    margin: 20px 0 0 0px;
+    padding: 3px 3px 3px 3px;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+    z-index: 2;
+}
+span.dropt:hover span{
+    left: 2%;
+    bottom: 3%;
+    right: 2;
+    background: #ffffff;
+} 
+span.dropt span{
+    left: -9999px;
+    margin: 4px 0 0 0px;
+    padding: 10px; 
+    border-style:solid;
+    border-color:#333;
+    border-width:5px;
+}
+span.dropt:hover span {margin: 20px 0 0 100px; background: #333; z-index:6;} 
